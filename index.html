@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Garena Free Fire Team</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #171717;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background: #69d0f5;
+    color: white;
+    text-align: center;
+    padding: 32px 10px;
+    font-size: clamp(25px, 5vw, 42px);
+    font-weight: bold;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding: 30px 18px 60px;
+}
+
+.video-box {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background: #292929;
+    border-radius: 22px;
+    overflow: hidden;
+    margin-bottom: 60px;
+}
+
+.video-box iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.proxy-card {
+    background: #080808;
+    border: 5px solid transparent;
+    border-radius: 35px;
+    background-image:
+        linear-gradient(#080808, #080808),
+        linear-gradient(
+            120deg,
+            red,
+            orange,
+            yellow,
+            lime,
+            cyan,
+            blue,
+            purple
+        );
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    padding: 35px 28px 40px;
+}
+
+.card-top {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: clamp(25px, 5vw, 38px);
+    font-weight: bold;
+    line-height: 1.3;
+}
+
+.description {
+    font-size: 25px;
+    line-height: 1.4;
+    margin-top: 30px;
+}
+
+.stars {
+    font-size: 35px;
+    margin: 25px 0 35px;
+}
+
+.install-btn {
+    display: block;
+    background: #00df83;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 30px 12px;
+    border-radius: 60px;
+    transition: 0.2s;
+}
+
+.install-btn:active {
+    transform: scale(0.97);
+}
+
+.footer {
+    text-align: center;
+    color: #999;
+    padding: 30px 10px;
+    font-size: 14px;
+}
+
+@media (max-width: 420px) {
+    .proxy-card {
+        padding: 25px 18px 30px;
+    }
+
+    .logo {
+        width: 75px;
+        height: 75px;
+    }
+
+    .description {
+        font-size: 21px;
+    }
+
+    .stars {
+        font-size: 30px;
+    }
+
+    .install-btn {
+        font-size: 27px;
+        padding: 25px 10px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header class="header">
+    Garena Free Fire Team
+</header>
+
+<main class="container">
+
+    <!-- VIDEO SECTION -->
+    <div class="video-box">
+        <iframe
+            src="https://www.youtube.com/embed/VIDEO_ID"
+            title="Free Fire Video Tutorial"
+            allowfullscreen>
+        </iframe>
+    </div>
+
+    <!-- PROXY SERVER CARD -->
+    <section class="proxy-card">
+
+        <div class="card-top">
+
+            <img
+                class="logo"
+                src="https://placehold.co/200x200/25113f/ffffff?text=VIP+PROXY"
+                alt="VIP Proxy Server Logo">
+
+            <h1 class="card-title">
+                VIP PROXY<br>
+                SERVER
+            </h1>
+
+        </div>
+
+        <p class="description">
+            DOWNLOAD VIP PROXY SERVER
+        </p>
+
+        <div class="stars">
+            ⭐⭐⭐⭐⭐
+        </div>
+
+        <a
+            class="install-btn"
+            href="https://example.com/"
+            target="_blank"
+            rel="noopener noreferrer">
+            Install
+        </a>
+
+    </section>
+
+</main>
+
+<footer class="footer">
+    Free Fire Team
+</footer>
+
+</body>
+</html>
