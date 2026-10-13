@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Video & Download Guide</title>
+
+<style>
+body {
+  margin: 0;
+  background: #181818;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+header {
+  background: #69c4e5;
+  padding: 30px 10px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.container {
+  padding: 20px;
+}
+
+video {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.card {
+  background: #080808;
+  border: 3px solid #7c21ff;
+  border-radius: 25px;
+  padding: 25px 15px;
+  margin-top: 30px;
+}
+
+.button {
+  display: block;
+  background: #08dc82;
+  color: white;
+  text-decoration: none;
+  padding: 18px;
+  border-radius: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 25px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  Video Download Guide
+</header>
+
+<div class="container">
+
+  <h2>Watch Tutorial</h2>
+
+  <video controls playsinline>
+    <source src="YOUR_DIRECT_VIDEO_URL" type="video/mp4">
+    आपका ब्राउज़र वीडियो नहीं चला पा रहा है।
+  </video>
+
+  <div class="card">
+    <h2>Download Files</h2>
+
+    <p>डाउनलोड करने के लिए नीचे दिए गए बटन पर क्लिक करें।</p>
+
+    <a class="button"
+       href="YOUR_TERABOX_SHARE_LINK"
+       target="_blank"
+       rel="noopener noreferrer">
+       Download Now
+    </a>
+  </div>
+
+  <div>
+    <h2>डाउनलोड और इंस्टॉल कैसे करें?</h2>
+    <p>1. डाउनलोड बटन पर क्लिक करें।</p>
+    <p>2. TeraBox पर खुलने वाली फाइल की जानकारी जाँचें।</p>
+    <p>3. डाउनलोड करने के लिए TeraBox के निर्देशों का पालन करें।</p>
+    <p>4. यदि फाइल कोई ऐप है, तो उसे केवल विश्वसनीय स्रोत से डाउनलोड करें।</p>
+    <p>5. ऐप की जरूरत के अनुसार लॉगिन करें।</p>
+  </div>
+
+</div>
+
+</body>
+</html>
