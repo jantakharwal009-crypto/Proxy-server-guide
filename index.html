@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#071326">
+<title>Garena Free Fire Team | VIP Proxy Server</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: radial-gradient(circle at top, #102a4d, #050b16 60%);
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 20px 12px;
+    font-size: clamp(22px, 5vw, 30px);
+    font-weight: 900;
+    background: linear-gradient(110deg, #0879f9, #1643c7, #08a8ed);
+    box-shadow: 0 5px 24px #008cff40;
+}
+
+main {
+    width: min(100% - 28px, 560px);
+    margin: 24px auto 36px;
+}
+
+/* VIDEO PLAYER */
+.video-card {
+    padding: 8px;
+    border: 1px solid #1e6bb9;
+    border-radius: 17px;
+    background: #000000;
+    box-shadow: 0 0 22px #008cff24;
+    overflow: hidden;
+}
+
+.video-card video {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background: #000000;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.note {
+    margin: 10px 3px 0;
+    color: #a9b6cc;
+    font-size: 12px;
+    text-align: center;
+}
+
+/* VIP CARD */
+.vip-card {
+    margin-top: 24px;
+    padding: 2px;
+    border-radius: 20px;
+    background: linear-gradient(
+        120deg,
+        #00e5ff,
+        #7c3cff,
+        #ff2ca8,
+        #ffb000,
+        #00e5ff
+    );
+    background-size: 300% 300%;
+    animation: glow 5s ease infinite;
+    box-shadow: 0 0 26px #008cff20;
+}
+
+@keyframes glow {
+    0%, 100% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+}
+
+.vip-inner {
+    border-radius: 18px;
+    background: linear-gradient(160deg, #101b30, #080d18);
+    text-align: center;
+    padding: 25px 18px 23px;
+}
+
+.badge {
+    display: inline-block;
+    padding: 6px 11px;
+    border: 1px solid #344766;
+    border-radius: 999px;
+    color: #9ecfff;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    margin-bottom: 12px;
+}
+
+h1 {
+    margin: 0;
+    font-size: clamp(25px, 6vw, 35px);
+    font-weight: 950;
+}
+
+.subtitle {
+    color: #a9b6cc;
+    margin: 9px 0 15px;
+    font-size: 14px;
+}
+
+.stars {
+    color: #ffd43b;
+    font-size: 27px;
+    letter-spacing: 4px;
+    margin: 5px 0 20px;
+}
+
+/* INSTALL BUTTON */
+.install {
+    display: block;
+    width: 100%;
+    max-width: 330px;
+    margin: auto;
+    padding: 15px 18px;
+    border-radius: 12px;
+    background: linear-gradient(90deg, #00c853, #16e878);
+    color: #03170b;
+    font-size: 18px;
+    font-weight: 900;
+    text-decoration: none;
+    box-shadow: 0 7px 22px #00dc6433;
+}
+
+.install:active {
+    transform: scale(0.98);
+}
+
+.footnote {
+    color: #7889a5;
+    text-align: center;
+    font-size: 11px;
+    line-height: 1.6;
+    margin: 17px 4px 0;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    Garena Free Fire Team
+</header>
+
+<main>
+
+    <!-- VIDEO: proxyvideo.mp4 -->
+    <section class="video-card">
+        <video controls playsinline preload="metadata">
+            <source src="proxyvideo.mp4" type="video/mp4">
+            आपका ब्राउज़र इस वीडियो को नहीं चला पा रहा है।
+        </video>
+    </section>
+
+    <p class="note">
+        वीडियो चलाने के लिए प्ले बटन दबाएँ।
+    </p>
+
+    <!-- VIP PROXY SERVER CARD -->
+    <section class="vip-card">
+        <div class="vip-inner">
+
+            <div class="badge">
+                PREMIUM ACCESS
+            </div>
+
+            <h1>
+                VIP PROXY SERVER
+            </h1>
+
+            <p class="subtitle">
+                Free Fire • Quick Access
+            </p>
+
+            <div class="stars">
+                ★★★★★
+            </div>
+
+            <!-- YOUR TERABOX LINK -->
+            <a
+                class="install"
+                href="https://1024terabox.com/s/1CrwiVBODhfAzjevMSffHcg"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                ⬇ INSTALL NOW
+            </a>
+
+        </div>
+    </section>
+
+    <p class="footnote">
+        Fan-made information page. Free Fire and Garena are trademarks
+        of their respective owners. This page is not an official Garena website.
+    </p>
+
+</main>
+
+</body>
+</html>
